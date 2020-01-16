@@ -54,18 +54,31 @@ img{
 .main-content {
   margin-left: 20px;
   width: 100%;
-
   /*display: inline;*/
 }
-.left-column{
-  height: auto;
-  width: 50%;
+.main-content .col-2-3{
+  width: 70%;
 }
-.video-player{
+
+.main-content iframe{
+  height: 500px;
+  width: 100%;
+  border: solid;
+  margin-bottom: 20px;
+
+}
+h2{
+  font-size: 1.5em;
+}
+ul{
+  position: relative;
+  list-style-type: none;
+  margin-left: 1.5em;
+}
+li{
   margin-bottom: 10px;
 }
-.video-player iframe{
-  height: 80%;
-  width: 70%;
-  position: absolute;
+.description .left p{
+  display: inline;
+  float: left;
 }

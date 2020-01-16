@@ -1,3 +1,6 @@
+body{
+  margin-left: 15px;
+}
 header {
   display: inline-flex;
 	background-color: white;
@@ -10,14 +13,30 @@ header {
 
 }
 
-nav {
+.left-side {
   display: inline;
   background: white;
-  width: 30%;
+  width: 20%;
   height: 100%;
 }
-
-.left-side {
-  min-width: 200;
-  width: 200;
+.center input{
+  height: 30px;
+  width: 70%;
+}
+.center button{
+  width: auto;
+  height: 30px;
+}
+.center{
+  width: 60%;
+  height: 100%;
+  display: inline;
+  background: white;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+img{
+  width: 56px;
+  height: 56px;
+  margin-left: 10px;
 }

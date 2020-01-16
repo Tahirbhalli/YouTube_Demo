@@ -82,3 +82,14 @@ li{
   display: inline;
   float: left;
 }
+
+img[alt=player-buttons] {
+  float: right;
+  display: inline;
+  width: 40%;
+  height: 1.8em;
+}
+
+.description {
+  border-bottom: 1px solid black
+}

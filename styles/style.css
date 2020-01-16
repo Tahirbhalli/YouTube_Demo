@@ -89,7 +89,10 @@ img[alt=player-buttons] {
   width: 40%;
   height: 1.8em;
 }
-
-.description {
-  border-bottom: 1px solid black
+#des{
+  margin-bottom: 10px;
+}
+#user_pic{
+  margin-top: 20px;
+  float: left;
 }

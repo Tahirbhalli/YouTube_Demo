@@ -171,7 +171,49 @@ body > div > section > section {
 }
 
 .video-des{
-  padding-top: 3.5rem;
+  padding-top: 1.5rem;
+  margin-top: 20px;
+  text-align: left;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
+  padding-bottom: 15px;
+}
+.video-des p{
+  padding-left: 2rem;
+  padding-right: 5rem;
+
+}
+.channel-description{
+  display: inline;
+  padding-top: 0px;
+
+}
+.channel-description span{
+  vertical-align: super;
+}
+.channel-description button{
+  background: red;
+  float: right;
+  color: white;
+  text-transform: uppercase;
+}
+.comments span.num{
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+  padding-top: 5px;
+}
+.inter-comment{
+  display: flex;
+}
+.inter-comment img{
+  padding-top: 20px;
+  float: left;
+}
+.comments .inter-comment input{
+  width: 100%;
+  height: 15px;
+  margin-left: 5px;
+  margin-top: 2rem;
+  float: left;
 }

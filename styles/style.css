@@ -68,7 +68,7 @@ aside.aside {
 }
 
 .left-side {
-  display: inline;
+  display: inline-flex;
   background: white;
   width: 20%;
   height: 100%;
@@ -146,4 +146,10 @@ img[alt=player-buttons] {
 #user_pic{
   margin-top: 20px;
   float: left;
+}
+
+img[alt=youtube-logo] {
+  width: 50%;
+  height: 1.8em;
+  padding-top: 10px;
 }

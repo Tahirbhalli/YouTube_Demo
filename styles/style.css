@@ -153,3 +153,7 @@ img[alt=youtube-logo] {
   height: 1.8em;
   padding-top: 10px;
 }
+#desc{
+  font-size: 1.5em;
+  line-height: 2.4rem;
+}

@@ -103,7 +103,7 @@ header img{
 
 .main-content {
   display:flex;
-  /*display: inline;*/
+
 }
 .main-content .col-2-3{
   width: 70%;
